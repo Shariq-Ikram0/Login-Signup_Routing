@@ -1,0 +1,52 @@
+.form{
+    display: flex;
+    flex-direction: column;
+    border-radius: 5px;
+    max-width: 250px;
+    background-color: rgb(92, 142, 180);
+    gap: 10px;
+    padding: 32px;
+}
+.heading{
+    text-align: center;
+    font-size: 25px;
+    color: #05002e;
+}
+.feilds{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5em;
+    padding: 0.6em;
+    border: none;
+    outline: none;
+    color: white;
+
+    
+  
+}
+.inputFeild{
+
+    background: white;
+    border: none;
+    border-radius: 5px;
+    outline: none;
+    width: 100%;
+    padding: 10px;
+    color: #000000;
+}
+.btn {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    margin-top: 2.5em;
+    gap: 20px;
+  }
+  .btn1, .btn2 {
+    padding: 0.7em 1.1em;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    background-color: #05002e;
+    color: white;
+  } 
